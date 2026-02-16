@@ -1,0 +1,82 @@
+{
+  "certificates": [
+    {
+      "id": "CERT-2025-001",
+      "certificateNumber": "А-123456",
+      "qrCode": "https://techreg.gov.kz/cert/2025-001",
+      "laboratory": "ТОО КазЦМ",
+      "instrument": {
+        "name": "Манометр МП2-У",
+        "type": "МП2-У",
+        "manufacturer": "ОАО Манотомь",
+        "serialNumber": "123456",
+        "inventoryNumber": "ИНВ-7890",
+        "yearOfManufacture": 2025,
+        "range": {"min": 0, "max": 25, "unit": "МПа"},
+        "accuracyClass": "1.5",
+        "methodology": "МИ 2124-90"
+      },
+      "verificationDate": "2025-02-15",
+      "nextVerificationDate": "2026-02-15",
+      "verifier": "Иванов И.И.",
+      "result": "Годен",
+      "notes": "Соответствует требованиям"
+    },
+    {
+      "id": "CERT-2025-002-ERROR-NOT-IN-REGISTRY",
+      "certificateNumber": "Б-999999",
+      "laboratory": "ТОО КазЦМ",
+      "instrument": {
+        "name": "Манометр неизвестного типа",
+        "type": "XYZ-999",
+        "manufacturer": "Unknown Ltd",
+        "serialNumber": "999999",
+        "yearOfManufacture": 2024,
+        "range": {"min": 0, "max": 50, "unit": "МПа"},
+        "accuracyClass": "1.0",
+        "methodology": "НД отсутствует"
+      },
+      "verificationDate": "2025-02-10",
+      "expectedErrors": [
+        "Тип СИ не найден в реестре ГСИ РК"
+      ]
+    },
+    {
+      "id": "CERT-2025-003-ERROR-OUT-OF-SCOPE",
+      "certificateNumber": "В-777777",
+      "laboratory": "ТОО КазЦМ",
+      "instrument": {
+        "name": "Манометр МП2-У",
+        "type": "МП2-У",
+        "manufacturer": "ОАО Манотомь",
+        "serialNumber": "777777",
+        "yearOfManufacture": 2024,
+        "range": {"min": 0, "max": 150, "unit": "МПа"},
+        "accuracyClass": "1.5",
+        "methodology": "МИ 2124-90"
+      },
+      "verificationDate": "2025-02-12",
+      "expectedErrors": [
+        "Диапазон измерений выходит за пределы области аккредитации (макс. 100 МПа)"
+      ]
+    },
+    {
+      "id": "CERT-2025-004-SUCCESS",
+      "certificateNumber": "Г-555555",
+      "laboratory": "ТОО КазЦМ",
+      "instrument": {
+        "name": "Термометр стеклянный жидкостный",
+        "type": "ТС-7",
+        "manufacturer": "Термоприбор",
+        "serialNumber": "555555",
+        "yearOfManufacture": 2024,
+        "range": {"min": 0, "max": 100, "unit": "°C"},
+        "accuracyClass": "1.0",
+        "methodology": "ГОСТ 8.558-2009"
+      },
+      "verificationDate": "2025-02-14",
+      "nextVerificationDate": "2027-02-14",
+      "result": "Годен"
+    }
+  ]
+}

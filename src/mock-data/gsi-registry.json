@@ -1,0 +1,82 @@
+{
+  "instruments": [
+    {
+      "id": "KZ.02.03.00662-2025/10135-15",
+      "name": "Манометр МП2-У",
+      "type": "МП2-У",
+      "manufacturer": "ОАО Манотомь",
+      "country": "РФ",
+      "ranges": [
+        {"min": 0, "max": 1.6, "unit": "МПа"},
+        {"min": 0, "max": 2.5, "unit": "МПа"},
+        {"min": 0, "max": 4, "unit": "МПа"},
+        {"min": 0, "max": 6, "unit": "МПа"},
+        {"min": 0, "max": 10, "unit": "МПа"},
+        {"min": 0, "max": 16, "unit": "МПа"},
+        {"min": 0, "max": 25, "unit": "МПа"},
+        {"min": 0, "max": 40, "unit": "МПа"},
+        {"min": 0, "max": 60, "unit": "МПа"}
+      ],
+      "accuracyClasses": ["1.5", "2.5", "4.0"],
+      "validFrom": "2020-01-01",
+      "validUntil": "2030-12-31",
+      "methodology": "МИ 2124-90",
+      "methodologyFullName": "ГСИ. Манометры, вакуумметры, мановакуумметры, напоромеры, тягомеры. Методика поверки",
+      "verificationInterval": "1 год"
+    },
+    {
+      "id": "KZ.02.03.00123-2024/10135-10",
+      "name": "Термометр стеклянный жидкостный",
+      "type": "ТС-7",
+      "manufacturer": "Термоприбор",
+      "country": "РК",
+      "ranges": [
+        {"min": -50, "max": 50, "unit": "°C"},
+        {"min": 0, "max": 100, "unit": "°C"},
+        {"min": 0, "max": 200, "unit": "°C"}
+      ],
+      "accuracyClasses": ["0.5", "1.0"],
+      "validFrom": "2024-01-01",
+      "validUntil": "2029-12-31",
+      "methodology": "ГОСТ 8.558-2009",
+      "methodologyFullName": "ГСИ. Термометры жидкостные стеклянные. Методика поверки",
+      "verificationInterval": "2 года"
+    },
+    {
+      "id": "KZ.02.03.00789-2023/10135-20",
+      "name": "Штангенциркуль",
+      "type": "ШЦ-I",
+      "manufacturer": "Калибр",
+      "country": "РФ",
+      "ranges": [
+        {"min": 0, "max": 125, "unit": "мм"},
+        {"min": 0, "max": 150, "unit": "мм"},
+        {"min": 0, "max": 200, "unit": "мм"},
+        {"min": 0, "max": 250, "unit": "мм"}
+      ],
+      "accuracyClasses": ["0.05", "0.1"],
+      "validFrom": "2023-06-15",
+      "validUntil": "2028-06-14",
+      "methodology": "ГОСТ 8.113-85",
+      "methodologyFullName": "ГСИ. Штангенинструменты. Методика поверки",
+      "verificationInterval": "1 год"
+    },
+    {
+      "id": "KZ.05.01.01152-2021",
+      "name": "Контроллер измерительный",
+      "type": "FloBoss 107",
+      "manufacturer": "Fromex S.A. de C.V.",
+      "country": "Мексика",
+      "ranges": [
+        {"min": 4, "max": 20, "unit": "мА"},
+        {"min": 0, "max": 100, "unit": "%"}
+      ],
+      "accuracyClasses": ["0.1", "0.2", "0.5"],
+      "validFrom": "2021-01-01",
+      "validUntil": "2031-12-31",
+      "methodology": "МП 118-221-2013",
+      "methodologyFullName": "ГСИ. Контроллеры измерительные ROC/FloBoss. Методика поверки",
+      "verificationInterval": "2 года"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors shadow-md;
+  }
+  .btn-secondary {
+    @apply bg-gray-600 hover:bg-gray-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors;
+  }
+  .btn-outline {
+    @apply border-2 border-primary text-primary hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg transition-colors;
+  }
+  .success-banner {
+    @apply bg-green-50 border-l-4 border-green-500 p-6 rounded-lg shadow-md;
+  }
+  .success-banner .icon {
+    @apply text-5xl text-green-600;
+  }
+  .success-banner h2 {
+    @apply text-2xl font-bold text-green-800 mt-2;
+  }
+  .success-banner p {
+    @apply text-green-700 mt-1;
+  }
+  .error-banner {
+    @apply bg-red-50 border-l-4 border-red-500 p-6 rounded-lg shadow-md;
+  }
+  .error-banner .icon {
+    @apply text-5xl text-red-600;
+  }
+  .error-banner h2 {
+    @apply text-2xl font-bold text-red-800 mt-2;
+  }
+  .error-banner p {
+    @apply text-red-700 mt-1;
+  }
+  .check-section {
+    @apply bg-white rounded-lg shadow-md p-6 mb-4;
+  }
+  .check-section h3 {
+    @apply text-xl font-semibold mb-4 flex items-center gap-2;
+  }
+  .check-icon {
+    @apply text-2xl;
+  }
+  .check-success {
+    @apply bg-green-50 border border-green-200 rounded-md p-4;
+  }
+  .check-error {
+    @apply bg-red-50 border border-red-200 rounded-md p-4;
+  }
+  .badge {
+    @apply inline-block px-3 py-1 rounded-full text-sm font-semibold;
+  }
+  .badge.success {
+    @apply bg-green-100 text-green-800;
+  }
+  .badge.error {
+    @apply bg-red-100 text-red-800;
+  }
+  .info-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-4 mt-4;
+  }
+  .info-item label {
+    @apply block text-sm font-medium text-gray-700 mb-1;
+  }
+  .info-item span {
+    @apply block text-gray-900;
+  }
+  .progress-bar {
+    @apply w-full bg-gray-200 rounded-full h-2.5 mb-2;
+  }
+  .progress-fill {
+    @apply bg-green-600 h-2.5 rounded-full transition-all duration-500;
+  }
+  .match-percentage {
+    @apply flex items-center gap-2;
+  }
+}
